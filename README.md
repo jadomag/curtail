@@ -1,6 +1,6 @@
 # curtail
 
-Warm color scheme with a limited palette for Vim.
+Sunbleached color scheme with an unobtrusive palette.
 
 Inspired by [Gruvbox](https://github.com/morhetz/gruvbox) and [Jonathan
 Blow](https://www.youtube.com/user/jblow888)'s personal syntax theme.
@@ -10,13 +10,13 @@ Blow](https://www.youtube.com/user/jblow888)'s personal syntax theme.
 Install with your favorite package manager and add the following to your vimrc:
 
 ```
-syntax enable           " enable syntax highlighting
-set termguicolors       " enable true color support
-set background=dark     " set to dark mode; use 'light' for light mode
-colorscheme curtail     " set the colorscheme to curtail
+syntax enable       " toggle syntax highlighting on.
+set termguicolors   " enable 24-bit RGB color in TUI.
+set background=dark " set to "dark" or "light" mode.
+colorscheme curtail " load "curtail" color scheme.
 ```
 
-Following snippet may be required if colors aren't displayed correctly:
+The snippet below may be required if colors aren't displayed correctly:
 
 ```
 execute "set t_8f=\e[38;2;%lu;%lu;%lum"
