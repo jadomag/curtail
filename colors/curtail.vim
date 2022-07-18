@@ -89,12 +89,12 @@ let s:d2 = '#5a5247'
 let s:d1 = '#3f392f'
 let s:d0 = '#241f17'
 
-let s:co0 = '#c4534f' " red
-let s:co1 = '#967A3A' " green
-let s:co2 = '#CC871B' " yellow
-let s:co3 = '#5A8173' " blue
-let s:co4 = '#C77573' " magenta
-let s:co5 = '#779176' " cyan
+let s:co0 = '#be4d4a' " red
+let s:co1 = '#967a3a' " green
+let s:co2 = '#cc871b' " yellow
+let s:co3 = '#5b8176' " blue
+let s:co4 = '#c77573' " magenta
+let s:co5 = '#7b987b' " cyan
 
 if &background == 'light'
   let s:bg0 = s:l0
