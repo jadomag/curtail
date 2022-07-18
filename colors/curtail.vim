@@ -92,7 +92,7 @@ let s:d0 = '#241f17'
 let s:co0 = '#be4d4a' " red
 let s:co1 = '#967a3a' " green
 let s:co2 = '#cc871b' " yellow
-let s:co3 = '#5b8176' " blue
+let s:co3 = '#6e897d' " blue
 let s:co4 = '#c77573' " magenta
 let s:co5 = '#7b987b' " cyan
 
